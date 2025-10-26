@@ -103,34 +103,6 @@ export default function TaskHeatmap({ heatmapData, models, taskDifficulty }: Tas
         </div>
       </div>
 
-      {/* Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <Card>
-          <CardContent className="p-4">
-            <p className="text-sm text-muted-foreground">Total Evaluations</p>
-            <p className="text-2xl font-bold">{stats.total}</p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="p-4">
-            <p className="text-sm text-muted-foreground">Success Rate</p>
-            <p className="text-2xl font-bold text-green-600 dark:text-green-400">{stats.rate}%</p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="p-4">
-            <p className="text-sm text-muted-foreground">Successes</p>
-            <p className="text-2xl font-bold text-green-600 dark:text-green-400">{stats.success}</p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="p-4">
-            <p className="text-sm text-muted-foreground">Failures</p>
-            <p className="text-2xl font-bold text-red-600 dark:text-red-400">{stats.fail}</p>
-          </CardContent>
-        </Card>
-      </div>
-
       {/* Heatmap */}
       <Card>
         <CardHeader>

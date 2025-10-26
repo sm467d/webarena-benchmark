@@ -43,7 +43,7 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
   const getSortedEntries = (domain: Domain) => {
     if (domain === 'all') {
       // Use official leaderboard data for Overall tab - convert to our format
-      return officialEntries.map((entry, index) => {
+      const entries = officialEntries.map((entry, index) => {
         // Handle malformed entries (AutoGuide, AutoManual, Human) where columns are shifted
         let modelName = entry.Model;
         let successRate = parseFloat(entry['Success Rate (%)']) || 0;
@@ -77,8 +77,19 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
           date: entry.a,
           open: entry['Open?'] === '✓' || entry['Open?'] === '✔',
           model_size: modelSize,
+          isHuman: modelName === 'Human',
         };
       }).sort((a, b) => b.success_rate - a.success_rate);
+
+      // Separate Human from other entries and renumber
+      const humanEntry = entries.find(e => e.isHuman);
+      const modelEntries = entries.filter(e => !e.isHuman).map((entry, index) => ({
+        ...entry,
+        rank: index + 1,
+      }));
+
+      // Return Human first (if exists), then numbered models
+      return humanEntry ? [humanEntry, ...modelEntries] : modelEntries;
     }
 
     return [...normalizedEntries]
@@ -92,7 +103,8 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
       .sort((a, b) => (b.domain_rate || 0) - (a.domain_rate || 0));
   };
 
-  const getRankBadge = (rank: number) => {
+  const getRankBadge = (rank: number, isHuman?: boolean) => {
+    if (isHuman) return <span className="text-lg font-semibold text-foreground/40">—</span>;
     if (rank === 1) return <span className="text-lg font-bold text-yellow-600 dark:text-yellow-500">{rank}</span>;
     if (rank === 2) return <span className="text-lg font-bold text-gray-500 dark:text-gray-400">{rank}</span>;
     if (rank === 3) return <span className="text-lg font-bold text-amber-700 dark:text-amber-600">{rank}</span>;
@@ -145,7 +157,7 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
                   className="border-b border-foreground/10 hover:bg-accent/50 transition-colors"
                 >
                   <td className="py-3 px-4">
-                    {getRankBadge(index + 1)}
+                    {getRankBadge(entry.rank, entry.isHuman)}
                   </td>
                   <td className="py-3 px-4">
                     <div className="flex items-center gap-3">
