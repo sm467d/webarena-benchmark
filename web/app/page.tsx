@@ -7,14 +7,25 @@ import { Badge } from '@/components/ui/badge';
 import { ThemeToggle } from '@/components/theme-toggle';
 import Link from 'next/link';
 
-async function getLeaderboardData(): Promise<LeaderboardEntry[]> {
-  const filePath = path.join(process.cwd(), 'public', 'data', 'leaderboard.json');
-  const fileContents = await fs.readFile(filePath, 'utf8');
-  return JSON.parse(fileContents);
+async function getLeaderboardData() {
+  const dataDir = path.join(process.cwd(), 'public', 'data');
+
+  // Load official leaderboard for Overall tab (all 43 models)
+  const officialLeaderboard = await fs.readFile(path.join(process.cwd(), '..', 'data', 'leaderboard.json'), 'utf8');
+  const officialData = JSON.parse(officialLeaderboard);
+
+  // Load normalized leaderboard for domain tabs (only models with trajectory data)
+  const normalizedLeaderboard = await fs.readFile(path.join(dataDir, 'leaderboard.json'), 'utf8');
+  const normalizedEntries: LeaderboardEntry[] = JSON.parse(normalizedLeaderboard);
+
+  return {
+    officialEntries: officialData.leaderboard,
+    normalizedEntries
+  };
 }
 
 export default async function Home() {
-  const entries = await getLeaderboardData();
+  const { officialEntries, normalizedEntries } = await getLeaderboardData();
   const lastUpdated = new Date().toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
@@ -32,7 +43,7 @@ export default async function Home() {
             </h1>
             <ThemeToggle />
           </div>
-          <p className="text-muted-foreground text-lg max-w-3xl">
+          <p className="text-muted-foreground text-base max-w-3xl">
             Performance tracking for autonomous agents on WebArena — a realistic benchmark
             environment testing complex web navigation and task completion capabilities.
           </p>
@@ -67,18 +78,21 @@ export default async function Home() {
             >
               View Heatmap →
             </Link>
+            <Link
+              href="/tasks"
+              className="text-primary hover:text-primary/80 transition-colors underline underline-offset-4 font-medium"
+            >
+              Browse Tasks →
+            </Link>
           </div>
         </div>
 
         {/* Leaderboard with Tabs */}
         <div className="mb-8">
-          <div className="mb-4">
-            <h2 className="text-2xl font-bold">Performance by Domain</h2>
-            <p className="text-sm text-muted-foreground mt-1">
-              Last updated: {lastUpdated} • Showing {entries.length} models across 6 domains
-            </p>
-          </div>
-          <LeaderboardWithTabs entries={entries} />
+          <LeaderboardWithTabs
+            officialEntries={officialEntries}
+            normalizedEntries={normalizedEntries}
+          />
         </div>
 
         {/* Footer */}

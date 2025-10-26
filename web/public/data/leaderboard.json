@@ -2,6 +2,7 @@
   {
     "id": "deepsky",
     "name": "DeepSky Agent",
+    "organization": "DeepSky AI / Airtable",
     "total_tasks": 812,
     "successes": 543,
     "success_rate": 66.9,
@@ -37,11 +38,139 @@
         "rate": 62.5
       }
     },
+    "has_trajectories": true,
     "rank": 1
+  },
+  {
+    "id": "narada",
+    "name": "Narada AI",
+    "organization": "Narada AI Inc.",
+    "total_tasks": 811,
+    "successes": 0,
+    "success_rate": 64.2,
+    "domain_breakdown": {
+      "shopping_admin": {
+        "success": 0,
+        "total": 182,
+        "rate": 0.0
+      },
+      "gitlab": {
+        "success": 0,
+        "total": 196,
+        "rate": 0.0
+      },
+      "shopping": {
+        "success": 0,
+        "total": 191,
+        "rate": 0.0
+      },
+      "reddit": {
+        "success": 0,
+        "total": 114,
+        "rate": 0.0
+      },
+      "map": {
+        "success": 0,
+        "total": 112,
+        "rate": 0.0
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      }
+    },
+    "has_trajectories": true,
+    "rank": 2
+  },
+  {
+    "id": "ibm_cuga",
+    "name": "IBM CUGA",
+    "organization": "IBM Research",
+    "total_tasks": 808,
+    "successes": 0,
+    "success_rate": 61.7,
+    "domain_breakdown": {
+      "shopping": {
+        "success": 0,
+        "total": 192,
+        "rate": 0.0
+      },
+      "gitlab": {
+        "success": 0,
+        "total": 196,
+        "rate": 0.0
+      },
+      "shopping_admin": {
+        "success": 0,
+        "total": 182,
+        "rate": 0.0
+      },
+      "reddit": {
+        "success": 0,
+        "total": 111,
+        "rate": 0.0
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      },
+      "map": {
+        "success": 0,
+        "total": 111,
+        "rate": 0.0
+      }
+    },
+    "has_trajectories": true,
+    "rank": 3
+  },
+  {
+    "id": "openai_operator",
+    "name": "OpenAI Operator",
+    "organization": "OpenAI",
+    "total_tasks": 812,
+    "successes": 0,
+    "success_rate": 58.1,
+    "domain_breakdown": {
+      "reddit": {
+        "success": 0,
+        "total": 114,
+        "rate": 0.0
+      },
+      "map": {
+        "success": 0,
+        "total": 112,
+        "rate": 0.0
+      },
+      "gitlab": {
+        "success": 0,
+        "total": 196,
+        "rate": 0.0
+      },
+      "shopping_admin": {
+        "success": 0,
+        "total": 182,
+        "rate": 0.0
+      },
+      "shopping": {
+        "success": 0,
+        "total": 192,
+        "rate": 0.0
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      }
+    },
+    "has_trajectories": true,
+    "rank": 4
   },
   {
     "id": "jace",
     "name": "Jace.AI",
+    "organization": "Zeta Labs",
     "total_tasks": 812,
     "successes": 464,
     "success_rate": 57.1,
@@ -77,254 +206,16 @@
         "rate": 68.8
       }
     },
-    "rank": 2
-  },
-  {
-    "id": "gui_hybrid",
-    "name": "GUI-API Hybrid Agent",
-    "total_tasks": 812,
-    "successes": 292,
-    "success_rate": 36.0,
-    "domain_breakdown": {
-      "shopping_admin": {
-        "success": 75,
-        "total": 182,
-        "rate": 41.2
-      },
-      "gitlab": {
-        "success": 89,
-        "total": 196,
-        "rate": 45.4
-      },
-      "reddit": {
-        "success": 26,
-        "total": 114,
-        "rate": 22.8
-      },
-      "shopping": {
-        "success": 48,
-        "total": 192,
-        "rate": 25.0
-      },
-      "map": {
-        "success": 51,
-        "total": 112,
-        "rate": 45.5
-      },
-      "wikipedia": {
-        "success": 3,
-        "total": 16,
-        "rate": 18.8
-      }
-    },
-    "rank": 3
-  },
-  {
-    "id": "step",
-    "name": "SteP",
-    "total_tasks": 804,
-    "successes": 194,
-    "success_rate": 24.1,
-    "domain_breakdown": {
-      "reddit": {
-        "success": 45,
-        "total": 114,
-        "rate": 39.5
-      },
-      "map": {
-        "success": 33,
-        "total": 112,
-        "rate": 29.5
-      },
-      "gitlab": {
-        "success": 44,
-        "total": 193,
-        "rate": 22.8
-      },
-      "shopping_admin": {
-        "success": 12,
-        "total": 182,
-        "rate": 6.6
-      },
-      "shopping": {
-        "success": 60,
-        "total": 187,
-        "rate": 32.1
-      },
-      "wikipedia": {
-        "success": 0,
-        "total": 16,
-        "rate": 0.0
-      }
-    },
-    "rank": 4
-  },
-  {
-    "id": "agentoccam",
-    "name": "AgentOccam-Judge",
-    "total_tasks": 812,
-    "successes": 67,
-    "success_rate": 8.3,
-    "domain_breakdown": {
-      "reddit": {
-        "success": 1,
-        "total": 114,
-        "rate": 0.9
-      },
-      "map": {
-        "success": 18,
-        "total": 112,
-        "rate": 16.1
-      },
-      "gitlab": {
-        "success": 3,
-        "total": 196,
-        "rate": 1.5
-      },
-      "shopping_admin": {
-        "success": 9,
-        "total": 182,
-        "rate": 4.9
-      },
-      "shopping": {
-        "success": 33,
-        "total": 192,
-        "rate": 17.2
-      },
-      "wikipedia": {
-        "success": 3,
-        "total": 16,
-        "rate": 18.8
-      }
-    },
+    "has_trajectories": true,
     "rank": 5
-  },
-  {
-    "id": "narada",
-    "name": "Narada AI",
-    "total_tasks": 811,
-    "successes": 0,
-    "success_rate": 0.0,
-    "domain_breakdown": {
-      "shopping_admin": {
-        "success": 0,
-        "total": 182,
-        "rate": 0.0
-      },
-      "gitlab": {
-        "success": 0,
-        "total": 196,
-        "rate": 0.0
-      },
-      "shopping": {
-        "success": 0,
-        "total": 191,
-        "rate": 0.0
-      },
-      "reddit": {
-        "success": 0,
-        "total": 114,
-        "rate": 0.0
-      },
-      "map": {
-        "success": 0,
-        "total": 112,
-        "rate": 0.0
-      },
-      "wikipedia": {
-        "success": 0,
-        "total": 16,
-        "rate": 0.0
-      }
-    },
-    "rank": 6
-  },
-  {
-    "id": "ibm_cuga",
-    "name": "IBM CUGA",
-    "total_tasks": 808,
-    "successes": 0,
-    "success_rate": 0.0,
-    "domain_breakdown": {
-      "shopping": {
-        "success": 0,
-        "total": 192,
-        "rate": 0.0
-      },
-      "gitlab": {
-        "success": 0,
-        "total": 196,
-        "rate": 0.0
-      },
-      "shopping_admin": {
-        "success": 0,
-        "total": 182,
-        "rate": 0.0
-      },
-      "reddit": {
-        "success": 0,
-        "total": 111,
-        "rate": 0.0
-      },
-      "wikipedia": {
-        "success": 0,
-        "total": 16,
-        "rate": 0.0
-      },
-      "map": {
-        "success": 0,
-        "total": 111,
-        "rate": 0.0
-      }
-    },
-    "rank": 7
-  },
-  {
-    "id": "openai_operator",
-    "name": "OpenAI Operator",
-    "total_tasks": 812,
-    "successes": 0,
-    "success_rate": 0.0,
-    "domain_breakdown": {
-      "reddit": {
-        "success": 0,
-        "total": 114,
-        "rate": 0.0
-      },
-      "map": {
-        "success": 0,
-        "total": 112,
-        "rate": 0.0
-      },
-      "gitlab": {
-        "success": 0,
-        "total": 196,
-        "rate": 0.0
-      },
-      "shopping_admin": {
-        "success": 0,
-        "total": 182,
-        "rate": 0.0
-      },
-      "shopping": {
-        "success": 0,
-        "total": 192,
-        "rate": 0.0
-      },
-      "wikipedia": {
-        "success": 0,
-        "total": 16,
-        "rate": 0.0
-      }
-    },
-    "rank": 8
   },
   {
     "id": "scribeagent",
     "name": "ScribeAgent + GPT-4o",
+    "organization": "Scribe / Colony Labs",
     "total_tasks": 733,
     "successes": 0,
-    "success_rate": 0.0,
+    "success_rate": 53.0,
     "domain_breakdown": {
       "shopping": {
         "success": 0,
@@ -357,14 +248,16 @@
         "rate": 0.0
       }
     },
-    "rank": 9
+    "has_trajectories": true,
+    "rank": 6
   },
   {
     "id": "learn_by_interact",
     "name": "Learn-by-Interact",
+    "organization": "Google Research / University of Hong Kong",
     "total_tasks": 812,
     "successes": 0,
-    "success_rate": 0.0,
+    "success_rate": 48.0,
     "domain_breakdown": {
       "reddit": {
         "success": 0,
@@ -397,6 +290,133 @@
         "rate": 0.0
       }
     },
+    "has_trajectories": true,
+    "rank": 7
+  },
+  {
+    "id": "agentoccam",
+    "name": "AgentOccam-Judge",
+    "organization": "All-Hands-AI",
+    "total_tasks": 812,
+    "successes": 67,
+    "success_rate": 45.7,
+    "domain_breakdown": {
+      "reddit": {
+        "success": 1,
+        "total": 114,
+        "rate": 0.9
+      },
+      "map": {
+        "success": 18,
+        "total": 112,
+        "rate": 16.1
+      },
+      "gitlab": {
+        "success": 3,
+        "total": 196,
+        "rate": 1.5
+      },
+      "shopping_admin": {
+        "success": 9,
+        "total": 182,
+        "rate": 4.9
+      },
+      "shopping": {
+        "success": 33,
+        "total": 192,
+        "rate": 17.2
+      },
+      "wikipedia": {
+        "success": 3,
+        "total": 16,
+        "rate": 18.8
+      }
+    },
+    "has_trajectories": true,
+    "rank": 8
+  },
+  {
+    "id": "gui_hybrid",
+    "name": "GUI-API Hybrid Agent",
+    "organization": "Carnegie Mellon University",
+    "total_tasks": 812,
+    "successes": 292,
+    "success_rate": 35.8,
+    "domain_breakdown": {
+      "shopping_admin": {
+        "success": 75,
+        "total": 182,
+        "rate": 41.2
+      },
+      "gitlab": {
+        "success": 89,
+        "total": 196,
+        "rate": 45.4
+      },
+      "reddit": {
+        "success": 26,
+        "total": 114,
+        "rate": 22.8
+      },
+      "shopping": {
+        "success": 48,
+        "total": 192,
+        "rate": 25.0
+      },
+      "map": {
+        "success": 51,
+        "total": 112,
+        "rate": 45.5
+      },
+      "wikipedia": {
+        "success": 3,
+        "total": 16,
+        "rate": 18.8
+      }
+    },
+    "has_trajectories": true,
+    "rank": 9
+  },
+  {
+    "id": "step",
+    "name": "SteP",
+    "organization": "",
+    "total_tasks": 804,
+    "successes": 194,
+    "success_rate": 33.5,
+    "domain_breakdown": {
+      "reddit": {
+        "success": 45,
+        "total": 114,
+        "rate": 39.5
+      },
+      "map": {
+        "success": 33,
+        "total": 112,
+        "rate": 29.5
+      },
+      "gitlab": {
+        "success": 44,
+        "total": 193,
+        "rate": 22.8
+      },
+      "shopping_admin": {
+        "success": 12,
+        "total": 182,
+        "rate": 6.6
+      },
+      "shopping": {
+        "success": 60,
+        "total": 187,
+        "rate": 32.1
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      }
+    },
+    "has_trajectories": true,
     "rank": 10
   }
 ]

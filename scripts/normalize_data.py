@@ -228,6 +228,8 @@ def main():
     }
 
     models = []
+    # Create reverse map for quick lookup
+    official_success_rates = {}
     for entry in leaderboard_entries:
         model_name = entry.get('Model', '')
         # Find matching model_id
@@ -237,15 +239,28 @@ def main():
                 model_id = mid
                 break
 
-        if model_id and model_id in all_results:
-            models.append({
-                "id": model_id,
+        if model_id:
+            official_success_rates[model_id] = {
                 "name": model_name,
                 "date": entry.get('a'),
                 "open": entry.get('Open?') == '✓',
                 "size_b": entry.get('Model Size (billion)'),
-                "success_rate": float(entry.get('Success Rate (%)', 0)),
-                "has_trajectories": True
+                "official_rate": float(entry.get('Success Rate (%)', 0)),
+            }
+
+    # Build models list with trajectory data availability
+    for model_id, model_name in model_name_map.items():
+        if model_id in official_success_rates:
+            official_data = official_success_rates[model_id]
+            has_traj = model_id in all_results
+            models.append({
+                "id": model_id,
+                "name": official_data['name'],
+                "date": official_data['date'],
+                "open": official_data['open'],
+                "size_b": official_data['size_b'],
+                "success_rate": official_data['official_rate'],
+                "has_trajectories": has_traj
             })
 
     print(f"   ✓ Built {len(models)} model entries")
@@ -282,39 +297,61 @@ def main():
     leaderboard_output = []
     for model in models:
         model_id = model['id']
-        if model_id not in all_results:
-            continue
 
-        model_results = all_results[model_id]
-        total = len(model_results)
-        successes = sum(1 for v in model_results.values() if v)
+        # Use official success rate from leaderboard
+        official_rate = model['success_rate']
 
-        # Domain breakdown
-        domain_breakdown = defaultdict(lambda: {'success': 0, 'total': 0})
-        for task_id, success in model_results.items():
-            task_meta = next((t for t in test_tasks if t['task_id'] == task_id), None)
-            if task_meta:
-                domain = task_meta['sites'][0] if task_meta['sites'] else 'unknown'
-                domain_breakdown[domain]['total'] += 1
-                if success:
-                    domain_breakdown[domain]['success'] += 1
+        # If we have trajectory data, calculate domain breakdown
+        domain_breakdown = {}
+        if model_id in all_results:
+            model_results = all_results[model_id]
+            total = len(model_results)
+            successes = sum(1 for v in model_results.values() if v)
 
-        # Calculate rates
-        for domain in domain_breakdown:
-            s = domain_breakdown[domain]['success']
-            t = domain_breakdown[domain]['total']
-            domain_breakdown[domain]['rate'] = round((s / t * 100), 1) if t > 0 else 0
+            # Domain breakdown (only for models with trajectory data)
+            domain_stats = defaultdict(lambda: {'success': 0, 'total': 0})
+            for task_id, success in model_results.items():
+                task_meta = next((t for t in test_tasks if t['task_id'] == task_id), None)
+                if task_meta:
+                    domain = task_meta['sites'][0] if task_meta['sites'] else 'unknown'
+                    domain_stats[domain]['total'] += 1
+                    if success:
+                        domain_stats[domain]['success'] += 1
 
-        leaderboard_output.append({
-            "id": model_id,
-            "name": model['name'],
-            "total_tasks": total,
-            "successes": successes,
-            "success_rate": round((successes / total * 100), 1) if total > 0 else 0,
-            "domain_breakdown": dict(domain_breakdown)
-        })
+            # Calculate rates
+            for domain in domain_stats:
+                s = domain_stats[domain]['success']
+                t = domain_stats[domain]['total']
+                domain_stats[domain]['rate'] = round((s / t * 100), 1) if t > 0 else 0
 
-    # Sort by success rate
+            domain_breakdown = dict(domain_stats)
+
+            leaderboard_output.append({
+                "id": model_id,
+                "name": model['name'],
+                "total_tasks": total,
+                "successes": successes,
+                "success_rate": official_rate,  # Use official rate
+                "domain_breakdown": domain_breakdown,
+                "has_trajectories": True
+            })
+        else:
+            # Model without trajectory data - use official overall rate only
+            # Estimate total tasks and successes based on official rate
+            total_tasks = 812  # Standard WebArena task count
+            estimated_successes = int(total_tasks * official_rate / 100)
+
+            leaderboard_output.append({
+                "id": model_id,
+                "name": model['name'],
+                "total_tasks": total_tasks,
+                "successes": estimated_successes,
+                "success_rate": official_rate,
+                "domain_breakdown": {},  # No domain data available
+                "has_trajectories": False
+            })
+
+    # Sort by official success rate
     leaderboard_output.sort(key=lambda x: x['success_rate'], reverse=True)
     for i, entry in enumerate(leaderboard_output):
         entry['rank'] = i + 1

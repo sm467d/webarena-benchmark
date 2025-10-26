@@ -34,11 +34,13 @@ export interface DomainStats {
 export interface LeaderboardEntry {
   id: string;
   name: string;
+  organization?: string;
   total_tasks: number;
   successes: number;
   success_rate: number;
   rank: number;
-  domain_breakdown: Record<string, DomainStats>;
+  domain_breakdown?: Record<string, DomainStats>;
+  has_trajectories?: boolean;
 }
 
 export interface TaskDifficulty {
