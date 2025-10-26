@@ -1,0 +1,402 @@
+[
+  {
+    "id": "deepsky",
+    "name": "DeepSky Agent",
+    "total_tasks": 812,
+    "successes": 543,
+    "success_rate": 66.9,
+    "domain_breakdown": {
+      "map": {
+        "success": 58,
+        "total": 112,
+        "rate": 51.8
+      },
+      "gitlab": {
+        "success": 148,
+        "total": 196,
+        "rate": 75.5
+      },
+      "shopping": {
+        "success": 125,
+        "total": 192,
+        "rate": 65.1
+      },
+      "shopping_admin": {
+        "success": 129,
+        "total": 182,
+        "rate": 70.9
+      },
+      "reddit": {
+        "success": 73,
+        "total": 114,
+        "rate": 64.0
+      },
+      "wikipedia": {
+        "success": 10,
+        "total": 16,
+        "rate": 62.5
+      }
+    },
+    "rank": 1
+  },
+  {
+    "id": "jace",
+    "name": "Jace.AI",
+    "total_tasks": 812,
+    "successes": 464,
+    "success_rate": 57.1,
+    "domain_breakdown": {
+      "shopping_admin": {
+        "success": 106,
+        "total": 182,
+        "rate": 58.2
+      },
+      "map": {
+        "success": 71,
+        "total": 112,
+        "rate": 63.4
+      },
+      "shopping": {
+        "success": 100,
+        "total": 192,
+        "rate": 52.1
+      },
+      "reddit": {
+        "success": 80,
+        "total": 114,
+        "rate": 70.2
+      },
+      "gitlab": {
+        "success": 96,
+        "total": 196,
+        "rate": 49.0
+      },
+      "wikipedia": {
+        "success": 11,
+        "total": 16,
+        "rate": 68.8
+      }
+    },
+    "rank": 2
+  },
+  {
+    "id": "gui_hybrid",
+    "name": "GUI-API Hybrid Agent",
+    "total_tasks": 812,
+    "successes": 292,
+    "success_rate": 36.0,
+    "domain_breakdown": {
+      "shopping_admin": {
+        "success": 75,
+        "total": 182,
+        "rate": 41.2
+      },
+      "gitlab": {
+        "success": 89,
+        "total": 196,
+        "rate": 45.4
+      },
+      "reddit": {
+        "success": 26,
+        "total": 114,
+        "rate": 22.8
+      },
+      "shopping": {
+        "success": 48,
+        "total": 192,
+        "rate": 25.0
+      },
+      "map": {
+        "success": 51,
+        "total": 112,
+        "rate": 45.5
+      },
+      "wikipedia": {
+        "success": 3,
+        "total": 16,
+        "rate": 18.8
+      }
+    },
+    "rank": 3
+  },
+  {
+    "id": "step",
+    "name": "SteP",
+    "total_tasks": 804,
+    "successes": 194,
+    "success_rate": 24.1,
+    "domain_breakdown": {
+      "reddit": {
+        "success": 45,
+        "total": 114,
+        "rate": 39.5
+      },
+      "map": {
+        "success": 33,
+        "total": 112,
+        "rate": 29.5
+      },
+      "gitlab": {
+        "success": 44,
+        "total": 193,
+        "rate": 22.8
+      },
+      "shopping_admin": {
+        "success": 12,
+        "total": 182,
+        "rate": 6.6
+      },
+      "shopping": {
+        "success": 60,
+        "total": 187,
+        "rate": 32.1
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      }
+    },
+    "rank": 4
+  },
+  {
+    "id": "agentoccam",
+    "name": "AgentOccam-Judge",
+    "total_tasks": 812,
+    "successes": 67,
+    "success_rate": 8.3,
+    "domain_breakdown": {
+      "reddit": {
+        "success": 1,
+        "total": 114,
+        "rate": 0.9
+      },
+      "map": {
+        "success": 18,
+        "total": 112,
+        "rate": 16.1
+      },
+      "gitlab": {
+        "success": 3,
+        "total": 196,
+        "rate": 1.5
+      },
+      "shopping_admin": {
+        "success": 9,
+        "total": 182,
+        "rate": 4.9
+      },
+      "shopping": {
+        "success": 33,
+        "total": 192,
+        "rate": 17.2
+      },
+      "wikipedia": {
+        "success": 3,
+        "total": 16,
+        "rate": 18.8
+      }
+    },
+    "rank": 5
+  },
+  {
+    "id": "narada",
+    "name": "Narada AI",
+    "total_tasks": 811,
+    "successes": 0,
+    "success_rate": 0.0,
+    "domain_breakdown": {
+      "shopping_admin": {
+        "success": 0,
+        "total": 182,
+        "rate": 0.0
+      },
+      "gitlab": {
+        "success": 0,
+        "total": 196,
+        "rate": 0.0
+      },
+      "shopping": {
+        "success": 0,
+        "total": 191,
+        "rate": 0.0
+      },
+      "reddit": {
+        "success": 0,
+        "total": 114,
+        "rate": 0.0
+      },
+      "map": {
+        "success": 0,
+        "total": 112,
+        "rate": 0.0
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      }
+    },
+    "rank": 6
+  },
+  {
+    "id": "ibm_cuga",
+    "name": "IBM CUGA",
+    "total_tasks": 808,
+    "successes": 0,
+    "success_rate": 0.0,
+    "domain_breakdown": {
+      "shopping": {
+        "success": 0,
+        "total": 192,
+        "rate": 0.0
+      },
+      "gitlab": {
+        "success": 0,
+        "total": 196,
+        "rate": 0.0
+      },
+      "shopping_admin": {
+        "success": 0,
+        "total": 182,
+        "rate": 0.0
+      },
+      "reddit": {
+        "success": 0,
+        "total": 111,
+        "rate": 0.0
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      },
+      "map": {
+        "success": 0,
+        "total": 111,
+        "rate": 0.0
+      }
+    },
+    "rank": 7
+  },
+  {
+    "id": "openai_operator",
+    "name": "OpenAI Operator",
+    "total_tasks": 812,
+    "successes": 0,
+    "success_rate": 0.0,
+    "domain_breakdown": {
+      "reddit": {
+        "success": 0,
+        "total": 114,
+        "rate": 0.0
+      },
+      "map": {
+        "success": 0,
+        "total": 112,
+        "rate": 0.0
+      },
+      "gitlab": {
+        "success": 0,
+        "total": 196,
+        "rate": 0.0
+      },
+      "shopping_admin": {
+        "success": 0,
+        "total": 182,
+        "rate": 0.0
+      },
+      "shopping": {
+        "success": 0,
+        "total": 192,
+        "rate": 0.0
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      }
+    },
+    "rank": 8
+  },
+  {
+    "id": "scribeagent",
+    "name": "ScribeAgent + GPT-4o",
+    "total_tasks": 733,
+    "successes": 0,
+    "success_rate": 0.0,
+    "domain_breakdown": {
+      "shopping": {
+        "success": 0,
+        "total": 179,
+        "rate": 0.0
+      },
+      "gitlab": {
+        "success": 0,
+        "total": 171,
+        "rate": 0.0
+      },
+      "shopping_admin": {
+        "success": 0,
+        "total": 149,
+        "rate": 0.0
+      },
+      "map": {
+        "success": 0,
+        "total": 112,
+        "rate": 0.0
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      },
+      "reddit": {
+        "success": 0,
+        "total": 106,
+        "rate": 0.0
+      }
+    },
+    "rank": 9
+  },
+  {
+    "id": "learn_by_interact",
+    "name": "Learn-by-Interact",
+    "total_tasks": 812,
+    "successes": 0,
+    "success_rate": 0.0,
+    "domain_breakdown": {
+      "reddit": {
+        "success": 0,
+        "total": 114,
+        "rate": 0.0
+      },
+      "map": {
+        "success": 0,
+        "total": 112,
+        "rate": 0.0
+      },
+      "gitlab": {
+        "success": 0,
+        "total": 196,
+        "rate": 0.0
+      },
+      "shopping_admin": {
+        "success": 0,
+        "total": 182,
+        "rate": 0.0
+      },
+      "shopping": {
+        "success": 0,
+        "total": 192,
+        "rate": 0.0
+      },
+      "wikipedia": {
+        "success": 0,
+        "total": 16,
+        "rate": 0.0
+      }
+    },
+    "rank": 10
+  }
+]

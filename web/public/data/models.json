@@ -1,0 +1,92 @@
+[
+  {
+    "id": "deepsky",
+    "name": "DeepSky Agent",
+    "date": "09/2025",
+    "open": false,
+    "size_b": "-",
+    "success_rate": 66.9,
+    "has_trajectories": true
+  },
+  {
+    "id": "narada",
+    "name": "Narada AI",
+    "date": "10/2025",
+    "open": false,
+    "size_b": null,
+    "success_rate": 64.2,
+    "has_trajectories": true
+  },
+  {
+    "id": "ibm_cuga",
+    "name": "IBM CUGA",
+    "date": "02/2025",
+    "open": false,
+    "size_b": "-",
+    "success_rate": 61.7,
+    "has_trajectories": true
+  },
+  {
+    "id": "openai_operator",
+    "name": "OpenAI Operator",
+    "date": "01/2025",
+    "open": false,
+    "size_b": "-",
+    "success_rate": 58.1,
+    "has_trajectories": true
+  },
+  {
+    "id": "jace",
+    "name": "Jace.AI",
+    "date": "08/2024",
+    "open": false,
+    "size_b": "-",
+    "success_rate": 57.1,
+    "has_trajectories": true
+  },
+  {
+    "id": "scribeagent",
+    "name": "ScribeAgent + GPT-4o",
+    "date": "12/2024",
+    "open": false,
+    "size_b": "-",
+    "success_rate": 53.0,
+    "has_trajectories": true
+  },
+  {
+    "id": "learn_by_interact",
+    "name": "Learn-by-Interact",
+    "date": "01/2025",
+    "open": false,
+    "size_b": "-",
+    "success_rate": 48.0,
+    "has_trajectories": true
+  },
+  {
+    "id": "agentoccam",
+    "name": "AgentOccam-Judge",
+    "date": "10/2024",
+    "open": false,
+    "size_b": "-",
+    "success_rate": 45.7,
+    "has_trajectories": true
+  },
+  {
+    "id": "gui_hybrid",
+    "name": "GUI-API Hybrid Agent",
+    "date": "10/2024",
+    "open": false,
+    "size_b": "-",
+    "success_rate": 35.8,
+    "has_trajectories": true
+  },
+  {
+    "id": "step",
+    "name": "SteP",
+    "date": "04/2024",
+    "open": false,
+    "size_b": "-",
+    "success_rate": 33.5,
+    "has_trajectories": true
+  }
+]

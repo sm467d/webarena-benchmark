@@ -1,0 +1,7900 @@
+[
+  {
+    "id": 0,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 1,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 2,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 3,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 4,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 5,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 6,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 7,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 8,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 9,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 10,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 11,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 12,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 13,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 14,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 15,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 16,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 17,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 18,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 19,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 20,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 21,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 22,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 23,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 24,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 25,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 26,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 27,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 28,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 29,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 30,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 31,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 32,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 33,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 34,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 35,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 36,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 37,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 38,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 39,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 40,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 41,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 42,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 43,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 44,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 45,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 46,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 47,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 48,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 49,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 50,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 51,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 52,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 53,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 54,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 55,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 56,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 57,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 58,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 59,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 60,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 61,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 62,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 63,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 64,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 65,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 66,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 67,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 68,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 69,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 70,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 71,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 72,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 73,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 74,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 75,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 76,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 77,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 78,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 79,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 80,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 81,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 82,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 83,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 84,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 85,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 86,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 87,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 88,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 89,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 90,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 91,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 92,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 93,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 94,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 95,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 96,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 97,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 98,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 99,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 100,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 101,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 102,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 103,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 104,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 105,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 106,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 107,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 108,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 109,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 110,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 111,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 112,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 113,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 114,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 115,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 116,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 117,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 118,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 119,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 120,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 121,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 122,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 123,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 124,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 125,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 126,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 127,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 128,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 129,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 130,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 131,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 132,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 133,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 134,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 135,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 136,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 137,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 138,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 139,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 140,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 141,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 142,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 143,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 144,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 145,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 146,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 147,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 148,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 149,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 150,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 151,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 152,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 153,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 154,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 155,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 156,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 157,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 158,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 159,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 160,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 161,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 162,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 163,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 164,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 165,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 166,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 167,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 168,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 169,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 170,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 171,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 172,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 173,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 174,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 175,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 176,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 177,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 178,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 179,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 180,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "agentoccam"
+    ]
+  },
+  {
+    "id": 181,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 182,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 183,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 184,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 185,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 186,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 187,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 188,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 189,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 190,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 191,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 192,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 193,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 194,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 195,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 196,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 197,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 198,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 199,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 200,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 201,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 202,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 203,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 204,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 205,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 206,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 207,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 208,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 209,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 210,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 211,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 212,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 213,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 214,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 215,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 216,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 217,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 218,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 219,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 220,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 221,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 222,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 223,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 224,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 225,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 226,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 227,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 228,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 229,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 230,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 231,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 232,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 233,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 234,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 235,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 236,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 237,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 238,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 239,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 240,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 241,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 242,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 243,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 244,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 245,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 246,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 247,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 248,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 249,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 250,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 251,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 252,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 253,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 254,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky"
+    ]
+  },
+  {
+    "id": 255,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 256,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 257,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 258,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 259,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 260,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 261,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 262,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 263,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 264,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 265,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 266,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 267,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 268,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 269,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 270,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 271,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 272,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 273,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 274,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 275,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 276,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 277,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 278,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 279,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 280,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 281,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 282,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 283,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 284,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 285,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 286,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 287,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 288,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 289,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 290,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 291,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 292,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 293,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 294,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 295,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 296,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 297,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 298,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 299,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 300,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 301,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 302,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 303,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 304,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 305,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 306,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 307,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 308,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 309,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 310,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 311,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 312,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 313,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 314,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 315,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 316,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 317,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 318,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 319,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 320,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 321,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 322,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 323,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 324,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 325,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 326,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 327,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 328,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 329,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 330,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky"
+    ]
+  },
+  {
+    "id": 331,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 332,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 333,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 334,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 335,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 336,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 337,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 338,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 339,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 340,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 341,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 342,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 343,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 344,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 345,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 346,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 347,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 348,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 349,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 350,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 351,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 352,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 353,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 354,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 355,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 356,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 357,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 358,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 359,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 360,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 361,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 362,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 363,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 364,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 365,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 366,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 367,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 368,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 369,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 370,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 371,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky"
+    ]
+  },
+  {
+    "id": 372,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 373,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 374,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 375,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 376,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 377,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 378,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 379,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "jace"
+    ]
+  },
+  {
+    "id": 380,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "jace"
+    ]
+  },
+  {
+    "id": 381,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "jace"
+    ]
+  },
+  {
+    "id": 382,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 383,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 384,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 385,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 386,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "agentoccam"
+    ]
+  },
+  {
+    "id": 387,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 388,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 389,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 390,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 391,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 392,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 393,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 394,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 395,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 396,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 397,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 398,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 399,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 400,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 401,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 402,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 403,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 404,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 405,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 406,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 407,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 408,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 409,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 410,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 411,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 412,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 413,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 414,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 415,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 416,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 417,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 418,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 419,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 420,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 421,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 422,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 423,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 424,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 425,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 426,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 427,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 428,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 429,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 430,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 431,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 432,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 433,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 434,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 435,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 436,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 437,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 438,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 439,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 440,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 441,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 442,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 443,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 444,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 445,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 446,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 447,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 448,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 449,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 450,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 451,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 452,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 453,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 454,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 455,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 456,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 457,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 458,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 459,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 460,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 461,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 462,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 463,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 464,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 465,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 466,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 467,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 468,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 469,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 470,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 471,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 472,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 473,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 474,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 475,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 476,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 477,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 478,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 479,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 480,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 481,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 482,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 483,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 484,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 485,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 486,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 487,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 488,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 489,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 490,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 491,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 492,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 493,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 494,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 495,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 496,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 497,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 498,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 499,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 500,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 501,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 502,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 503,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 504,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 505,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 506,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 507,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 508,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 509,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 510,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 511,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 512,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 513,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 514,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 515,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 516,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 517,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 518,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 519,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 520,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 521,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 522,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 523,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 524,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 525,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 526,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 527,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 528,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 529,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 530,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 531,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 532,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 533,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 534,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 535,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 536,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 537,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 538,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 539,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 540,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 541,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 542,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 543,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 544,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 545,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 546,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 547,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 548,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 549,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 550,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 551,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 552,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 553,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 554,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 555,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 556,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 557,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 558,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 559,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 560,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 561,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 562,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 563,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 564,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 565,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 566,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 567,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 568,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 569,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 570,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 571,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 572,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 573,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 574,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 575,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 576,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 577,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 578,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 579,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 580,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 581,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 582,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 583,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 584,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 585,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 586,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 587,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 588,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 589,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 590,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 591,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 592,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 593,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 594,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 595,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 596,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 597,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 598,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 599,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 600,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 601,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 602,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 603,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 604,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 605,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 606,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 607,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 608,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 609,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 610,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 611,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 612,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 613,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 614,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 615,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 616,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 617,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 618,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 619,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 620,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 621,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 622,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 623,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 624,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 625,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 626,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 627,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 628,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 629,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 630,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 631,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 632,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 633,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 634,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 635,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 636,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 637,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 638,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 639,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 640,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 641,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 642,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 643,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 644,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 645,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 646,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 647,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 648,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 649,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 650,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 651,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 652,
+    "success_count": 5,
+    "success_rate": 50.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 653,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 654,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 655,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 656,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 657,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 658,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 659,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 660,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 661,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 662,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 663,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 664,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 665,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 666,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 667,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 668,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 669,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 670,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 671,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 672,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 673,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 674,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 675,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 676,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 677,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 678,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 679,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 680,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 681,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 682,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 683,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 684,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 685,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 686,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 687,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 688,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 689,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 690,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 691,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 692,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 693,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "step"
+    ]
+  },
+  {
+    "id": 694,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 695,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 696,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 697,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 698,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 699,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 700,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 701,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 702,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 703,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 704,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 705,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 706,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 707,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 708,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 709,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 710,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 711,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 712,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 713,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 714,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 715,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 716,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 717,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 718,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 719,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 720,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 721,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 722,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 723,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 724,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 725,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 726,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 727,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 728,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 729,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 730,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 731,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 732,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 733,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 734,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 735,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 736,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 737,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "jace"
+    ]
+  },
+  {
+    "id": 738,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 739,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 740,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 741,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 742,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 743,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 744,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 745,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 746,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 747,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 748,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 749,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 750,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 751,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 752,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 753,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 754,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 755,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 756,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 757,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 758,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "agentoccam",
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 759,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 760,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 761,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 762,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 763,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 764,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 765,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 766,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 767,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 768,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 769,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 770,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "jace"
+    ]
+  },
+  {
+    "id": 771,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 772,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 773,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 774,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 775,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 776,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 777,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 778,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 779,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 780,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 781,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 782,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 783,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 784,
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 785,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 786,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 787,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 788,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 789,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 790,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid",
+      "step"
+    ]
+  },
+  {
+    "id": 791,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 792,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "step"
+    ]
+  },
+  {
+    "id": 793,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 794,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 795,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 796,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 797,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 798,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "step"
+    ]
+  },
+  {
+    "id": 799,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 800,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 801,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 802,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 803,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 804,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 805,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 806,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 807,
+    "success_count": 1,
+    "success_rate": 10.0,
+    "difficulty": "very_hard",
+    "passing_models": [
+      "deepsky"
+    ]
+  },
+  {
+    "id": 808,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  },
+  {
+    "id": 809,
+    "success_count": 3,
+    "success_rate": 30.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace",
+      "gui_hybrid"
+    ]
+  },
+  {
+    "id": 810,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "difficulty": "very_hard",
+    "passing_models": []
+  },
+  {
+    "id": 811,
+    "success_count": 2,
+    "success_rate": 20.0,
+    "difficulty": "hard",
+    "passing_models": [
+      "deepsky",
+      "jace"
+    ]
+  }
+]

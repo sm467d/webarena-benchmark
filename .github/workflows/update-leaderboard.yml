@@ -1,0 +1,39 @@
+name: Update Leaderboard Data
+
+on:
+  schedule:
+    # Runs daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas
+
+      - name: Fetch and convert Google Sheets data
+        run: |
+          python scripts/fetch_leaderboard.py
+
+      - name: Copy data to web public directory
+        run: |
+          cp data/leaderboard.json web/public/data/leaderboard.json
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/leaderboard.json web/public/data/leaderboard.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update leaderboard data [skip ci]" && git push)
