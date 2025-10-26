@@ -47,43 +47,47 @@ export default async function Home() {
             Performance tracking for autonomous agents on WebArena — a realistic benchmark
             environment testing complex web navigation and task completion capabilities.
           </p>
-          <div className="mt-4 flex gap-4 text-sm flex-wrap">
-            <a
-              href="https://webarena.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
-            >
-              Official Site
-            </a>
-            <a
-              href="https://github.com/web-arena-x/webarena"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://arxiv.org/abs/2307.13854"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
-            >
-              Paper
-            </a>
-            <Link
-              href="/heatmap"
-              className="text-primary hover:text-primary/80 transition-colors underline underline-offset-4 font-medium"
-            >
-              View Heatmap →
-            </Link>
-            <Link
-              href="/tasks"
-              className="text-primary hover:text-primary/80 transition-colors underline underline-offset-4 font-medium"
-            >
-              Browse Tasks →
-            </Link>
+          <div className="mt-4 space-y-2">
+            <div className="flex gap-4 text-sm flex-wrap">
+              <a
+                href="https://webarena.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
+              >
+                Official Site
+              </a>
+              <a
+                href="https://github.com/web-arena-x/webarena"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://arxiv.org/abs/2307.13854"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
+              >
+                Paper
+              </a>
+            </div>
+            <div className="flex gap-4 text-sm flex-wrap">
+              <Link
+                href="/heatmap"
+                className="text-primary hover:text-primary/80 transition-colors underline underline-offset-4 font-medium"
+              >
+                View Heatmap →
+              </Link>
+              <Link
+                href="/tasks"
+                className="text-primary hover:text-primary/80 transition-colors underline underline-offset-4 font-medium"
+              >
+                Browse Tasks →
+              </Link>
+            </div>
           </div>
         </div>
 
