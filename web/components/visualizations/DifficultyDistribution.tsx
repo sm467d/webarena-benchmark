@@ -17,10 +17,10 @@ const DIFFICULTY_LABELS: Record<string, string> = {
 };
 
 const DIFFICULTY_COLORS: Record<string, string> = {
-  easy: '#22c55e',
-  medium: '#eab308',
-  hard: '#f97316',
-  very_hard: '#ef4444',
+  easy: '#d1fae5',
+  medium: '#fef9c3',
+  hard: '#fed7aa',
+  very_hard: '#fecdd3',
 };
 
 export default function DifficultyDistribution({ taskDifficulty, models }: DifficultyDistributionProps) {
@@ -100,7 +100,7 @@ export default function DifficultyDistribution({ taskDifficulty, models }: Diffi
 
                       {/* Tooltip */}
                       <div className="absolute inset-0 flex items-center justify-center text-xs font-medium pointer-events-none">
-                        <span className={rate > 30 ? 'text-white' : 'text-foreground'}>
+                        <span className={rate > 30 ? 'text-gray-800 dark:text-gray-900' : 'text-foreground'}>
                           {rate > 15 ? `${rate.toFixed(0)}%` : ''}
                         </span>
                       </div>

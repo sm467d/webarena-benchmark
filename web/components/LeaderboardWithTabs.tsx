@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { LeaderboardEntry } from '@/types/normalized';
 import { ArrowUpIcon, ArrowDownIcon, TrendingUp, Trophy, Medal, Award, User } from 'lucide-react';
 import { getCompanyLogoUrl } from '@/lib/company-logos';
+import { getOrganizationName } from '@/lib/model-organizations';
 import Image from 'next/image';
 
 interface LeaderboardWithTabsProps {
@@ -78,18 +79,23 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
           open: entry['Open?'] === '✓' || entry['Open?'] === '✔',
           model_size: modelSize,
           isHuman: modelName === 'Human',
+          isSubset: modelName === 'AutoGuide' || modelName === 'AutoManual',
+          note: entry.Note,
         };
       }).sort((a, b) => b.success_rate - a.success_rate);
 
-      // Separate Human from other entries and renumber
+      // Separate Human and Reddit subset entries from full benchmark models
       const humanEntry = entries.find(e => e.isHuman);
-      const modelEntries = entries.filter(e => !e.isHuman).map((entry, index) => ({
+      const subsetEntries = entries.filter(e => e.isSubset);
+      const modelEntries = entries.filter(e => !e.isHuman && !e.isSubset).map((entry, index) => ({
         ...entry,
         rank: index + 1,
       }));
 
-      // Return Human first (if exists), then numbered models
-      return humanEntry ? [humanEntry, ...modelEntries] : modelEntries;
+      // Return Human first, then numbered full benchmark models, then subset entries without ranks
+      return humanEntry
+        ? [humanEntry, ...modelEntries, ...subsetEntries]
+        : [...modelEntries, ...subsetEntries];
     }
 
     return [...normalizedEntries]
@@ -103,8 +109,8 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
       .sort((a, b) => (b.domain_rate || 0) - (a.domain_rate || 0));
   };
 
-  const getRankBadge = (rank: number, isHuman?: boolean) => {
-    if (isHuman) return <span className="text-lg font-semibold text-foreground/40">—</span>;
+  const getRankBadge = (rank: number, isHuman?: boolean, isSubset?: boolean) => {
+    if (isHuman || isSubset) return <span className="text-lg font-semibold text-foreground/40">—</span>;
     if (rank === 1) return <span className="text-lg font-bold text-yellow-600 dark:text-yellow-500">{rank}</span>;
     if (rank === 2) return <span className="text-lg font-bold text-gray-500 dark:text-gray-400">{rank}</span>;
     if (rank === 3) return <span className="text-lg font-bold text-amber-700 dark:text-amber-600">{rank}</span>;
@@ -157,30 +163,32 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
                   className="border-b border-foreground/10 hover:bg-accent/50 transition-colors"
                 >
                   <td className="py-3 px-4">
-                    {getRankBadge(entry.rank, entry.isHuman)}
+                    {getRankBadge(entry.rank, entry.isHuman, entry.isSubset)}
                   </td>
                   <td className="py-3 px-4">
-                    <div className="flex items-center gap-3">
-                      {entry.name === 'Human' ? (
-                        <div className="w-5 h-5 flex items-center justify-center rounded-full bg-primary/10">
-                          <User className="w-3.5 h-3.5 text-primary" />
-                        </div>
-                      ) : (
-                        <Image
-                          src={getCompanyLogoUrl(entry.name, 64)}
-                          alt={`${entry.name} logo`}
-                          width={20}
-                          height={20}
-                          className="rounded object-contain"
-                          unoptimized
-                        />
-                      )}
-                      <div>
+                    <div className="flex items-start gap-3">
+                      <div className="flex-shrink-0 w-5 h-5 flex items-center justify-center mt-0.5">
+                        {entry.name === 'Human' ? (
+                          <div className="w-5 h-5 flex items-center justify-center rounded-full bg-primary/10">
+                            <User className="w-3.5 h-3.5 text-primary" />
+                          </div>
+                        ) : (
+                          <Image
+                            src={getCompanyLogoUrl(entry.name, 64)}
+                            alt={`${entry.name} logo`}
+                            width={20}
+                            height={20}
+                            className="rounded object-contain"
+                            unoptimized
+                          />
+                        )}
+                      </div>
+                      <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2">
                           <span className="font-semibold text-foreground">{entry.name}</span>
                           {entry.open && (
                             <Badge variant="outline" className="text-xs border-green-500 text-green-700 dark:text-green-400">
-                              Open Source
+                              OS
                             </Badge>
                           )}
                         </div>
@@ -189,6 +197,11 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
                             <span className="text-xs text-muted-foreground">
                               {entry.model_size}B params
                             </span>
+                          )}
+                          {entry.isSubset && entry.note && (
+                            <Badge variant="secondary" className="text-xs">
+                              {entry.note}
+                            </Badge>
                           )}
                           {domain !== 'all' && !domainSpecific && (
                             <Badge variant="secondary" className="text-xs">
@@ -200,7 +213,7 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
                     </div>
                   </td>
                   <td className="py-3 px-4 text-sm text-foreground/70">
-                    {entry.organization || '—'}
+                    {getOrganizationName(entry.name)}
                   </td>
                   <td className="py-3 px-4 text-right">
                     <Badge variant="default" className="font-mono text-sm px-3 py-1 bg-primary text-primary-foreground font-semibold">

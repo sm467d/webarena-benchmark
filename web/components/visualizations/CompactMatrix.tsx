@@ -21,13 +21,13 @@ export default function CompactMatrix({ entries }: CompactMatrixProps) {
   // Filter entries that have domain data
   const entriesWithDomains = entries.filter(e => e.domain_breakdown && Object.keys(e.domain_breakdown).length > 0);
 
-  // Get color based on success rate
+  // Get color based on success rate (soft pastel colors)
   const getColor = (rate: number) => {
-    if (rate >= 70) return 'bg-green-500 text-white';
-    if (rate >= 50) return 'bg-green-400 text-white';
-    if (rate >= 30) return 'bg-yellow-500 text-white';
-    if (rate >= 15) return 'bg-orange-500 text-white';
-    return 'bg-red-500 text-white';
+    if (rate >= 70) return 'bg-green-100 dark:bg-green-200 text-green-800';
+    if (rate >= 50) return 'bg-emerald-100 dark:bg-emerald-200 text-emerald-800';
+    if (rate >= 30) return 'bg-yellow-100 dark:bg-yellow-200 text-yellow-800';
+    if (rate >= 15) return 'bg-orange-100 dark:bg-orange-200 text-orange-800';
+    return 'bg-rose-100 dark:bg-rose-200 text-rose-800';
   };
 
   return (
@@ -102,23 +102,23 @@ export default function CompactMatrix({ entries }: CompactMatrixProps) {
         <div className="mt-4 flex items-center gap-4 text-xs flex-wrap">
           <span className="font-semibold">Success Rate:</span>
           <div className="flex items-center gap-1">
-            <div className="w-4 h-4 bg-green-500 rounded" />
+            <div className="w-4 h-4 bg-green-100 dark:bg-green-200 rounded" />
             <span>≥70%</span>
           </div>
           <div className="flex items-center gap-1">
-            <div className="w-4 h-4 bg-green-400 rounded" />
+            <div className="w-4 h-4 bg-emerald-100 dark:bg-emerald-200 rounded" />
             <span>50-70%</span>
           </div>
           <div className="flex items-center gap-1">
-            <div className="w-4 h-4 bg-yellow-500 rounded" />
+            <div className="w-4 h-4 bg-yellow-100 dark:bg-yellow-200 rounded" />
             <span>30-50%</span>
           </div>
           <div className="flex items-center gap-1">
-            <div className="w-4 h-4 bg-orange-500 rounded" />
+            <div className="w-4 h-4 bg-orange-100 dark:bg-orange-200 rounded" />
             <span>15-30%</span>
           </div>
           <div className="flex items-center gap-1">
-            <div className="w-4 h-4 bg-red-500 rounded" />
+            <div className="w-4 h-4 bg-rose-100 dark:bg-rose-200 rounded" />
             <span>&lt;15%</span>
           </div>
         </div>
