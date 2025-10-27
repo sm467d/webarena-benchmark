@@ -4,7 +4,6 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ThemeToggle } from '@/components/theme-toggle';
 import Link from 'next/link';
 
 async function getLeaderboardData() {
@@ -37,12 +36,9 @@ export default async function Home() {
       <div className="container mx-auto px-4 py-12 max-w-7xl">
         {/* Header */}
         <div className="mb-10">
-          <div className="flex items-center justify-between mb-3">
-            <h1 className="text-4xl font-bold tracking-tight">
-              WebArena Leaderboard
-            </h1>
-            <ThemeToggle />
-          </div>
+          <h1 className="text-4xl font-bold tracking-tight mb-3">
+            WebArena Leaderboard
+          </h1>
           <p className="text-muted-foreground text-base max-w-3xl">
             Performance tracking for autonomous agents on WebArena — a realistic benchmark
             environment testing complex web navigation and task completion capabilities.

@@ -1,0 +1,60 @@
+{
+  "benchmark": "EconWebArena",
+  "description": "Benchmarking Autonomous Agents on Economic Tasks in Realistic Web Environments",
+  "total_tasks": 360,
+  "websites": 82,
+  "domains": ["Macroeconomics", "Labor", "Finance", "Trade", "Public Policy"],
+  "updated": "2025-06-09",
+  "leaderboard": [
+    {
+      "model": "Human",
+      "organization": "Baseline",
+      "success_rate": 93.3,
+      "date": "2025-05",
+      "isHuman": true
+    },
+    {
+      "rank": 1,
+      "model": "o4-mini",
+      "organization": "OpenAI",
+      "success_rate": 46.9,
+      "date": "2025-05",
+      "open": false
+    },
+    {
+      "rank": 2,
+      "model": "Claude Sonnet 4",
+      "organization": "Anthropic",
+      "success_rate": 38.6,
+      "date": "2025-05",
+      "open": false,
+      "note": "Longer action sequences"
+    },
+    {
+      "rank": 3,
+      "model": "GPT-4.1",
+      "organization": "OpenAI",
+      "success_rate": 31.9,
+      "date": "2025-05",
+      "open": false,
+      "note": "Fewest steps on success"
+    },
+    {
+      "rank": 4,
+      "model": "Gemini 2.5 Flash",
+      "organization": "Google",
+      "success_rate": 31.1,
+      "date": "2025-05",
+      "open": false
+    },
+    {
+      "rank": 5,
+      "model": "Llama 4 Maverick",
+      "organization": "Meta",
+      "success_rate": 18.9,
+      "date": "2025-05",
+      "open": true,
+      "note": "Open-weight model"
+    }
+  ]
+}

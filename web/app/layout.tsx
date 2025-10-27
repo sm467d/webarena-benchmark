@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Header } from "@/components/Header";
 
 const geistMono = Geist_Mono({
   subsets: ["latin"],
@@ -9,8 +10,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WebArena Benchmark",
-  description: "Track the performance of AI models on the WebArena benchmark - a realistic web environment for building autonomous agents.",
+  title: "Computer Use Benchmark",
+  description: "Performance tracking for autonomous agents across computer use benchmarks - from web navigation to desktop applications.",
   icons: {
     icon: '/favicon.svg',
     apple: '/apple-touch-icon.svg',
@@ -31,6 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Header />
           {children}
         </ThemeProvider>
       </body>

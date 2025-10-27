@@ -7,10 +7,6 @@ import RadarChart from '@/components/visualizations/RadarChart';
 import { HeatmapData, Model, TaskDifficulty, LeaderboardEntry } from '@/types/normalized';
 import { promises as fs } from 'fs';
 import path from 'path';
-import { ThemeToggle } from '@/components/theme-toggle';
-import Link from 'next/link';
-import { ArrowLeft } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 
 async function getData() {
   const dataDir = path.join(process.cwd(), 'public', 'data');
@@ -38,15 +34,6 @@ export default async function HeatmapPage() {
       <div className="container mx-auto px-4 py-12 max-w-7xl">
         {/* Header */}
         <div className="mb-10">
-          <div className="flex items-center justify-between mb-3">
-            <Link href="/">
-              <Button variant="ghost" size="sm">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Leaderboard
-              </Button>
-            </Link>
-            <ThemeToggle />
-          </div>
           <h1 className="text-4xl font-bold tracking-tight mb-3">
             Performance Visualizations
           </h1>
