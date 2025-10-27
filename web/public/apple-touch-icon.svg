@@ -1,0 +1,25 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="180" height="180" fill="#1e293b" rx="40"/>
+
+  <!-- Trophy cup (scaled up) -->
+  <path d="M45 33.75C45 30.8505 47.3505 28.5 50.25 28.5H129.75C132.649 28.5 135 30.8505 135 33.75V67.5C135 89.3675 117.368 107 95.5 107H84.5C62.6325 107 45 89.3675 45 67.5V33.75Z" fill="#fcd34d"/>
+
+  <!-- Left handle -->
+  <path d="M33.75 45C30.8505 45 28.5 47.3505 28.5 50.25V61.875C28.5 71.1169 35.8831 78.5 45 78.5V45H33.75Z" fill="#fbbf24"/>
+
+  <!-- Right handle -->
+  <path d="M146.25 45H135V78.5C144.117 78.5 151.5 71.1169 151.5 61.875V50.25C151.5 47.3505 149.149 45 146.25 45Z" fill="#fbbf24"/>
+
+  <!-- Trophy stem -->
+  <rect x="78.75" y="107" width="22.5" height="22.5" rx="2.8125" fill="#f59e0b"/>
+
+  <!-- Trophy base -->
+  <rect x="56.25 " y="129.5" width="67.5" height="16.875" rx="5.625" fill="#f59e0b"/>
+
+  <!-- Trophy cup outline for depth -->
+  <path d="M45 33.75C45 30.8505 47.3505 28.5 50.25 28.5H129.75C132.649 28.5 135 30.8505 135 33.75V67.5C135 89.3675 117.368 107 95.5 107H84.5C62.6325 107 45 89.3675 45 67.5V33.75Z" stroke="#f59e0b" stroke-width="5.625" fill="none"/>
+
+  <!-- Shine/highlight on trophy -->
+  <ellipse cx="75" cy="50" rx="15" ry="8" fill="white" opacity="0.3"/>
+</svg>

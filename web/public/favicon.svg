@@ -1,0 +1,19 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trophy cup -->
+  <path d="M8 6C8 5.44772 8.44772 5 9 5H23C23.5523 5 24 5.44772 24 6V12C24 15.866 20.866 19 17 19H15C11.134 19 8 15.866 8 12V6Z" fill="#fcd34d"/>
+
+  <!-- Left handle -->
+  <path d="M6 8C5.44772 8 5 8.44772 5 9V11C5 12.6569 6.34315 14 8 14V8H6Z" fill="#fbbf24"/>
+
+  <!-- Right handle -->
+  <path d="M26 8H24V14C25.6569 14 27 12.6569 27 11V9C27 8.44772 26.5523 8 26 8Z" fill="#fbbf24"/>
+
+  <!-- Trophy base/stem -->
+  <rect x="14" y="19" width="4" height="4" rx="0.5" fill="#f59e0b"/>
+
+  <!-- Trophy bottom base -->
+  <rect x="10" y="23" width="12" height="3" rx="1" fill="#f59e0b"/>
+
+  <!-- Trophy cup outline for depth -->
+  <path d="M8 6C8 5.44772 8.44772 5 9 5H23C23.5523 5 24 5.44772 24 6V12C24 15.866 20.866 19 17 19H15C11.134 19 8 15.866 8 12V6Z" stroke="#f59e0b" stroke-width="1" fill="none"/>
+</svg>

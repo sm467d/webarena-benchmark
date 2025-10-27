@@ -9,8 +9,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WebArena Benchmark Leaderboard",
+  title: "WebArena Benchmark",
   description: "Track the performance of AI models on the WebArena benchmark - a realistic web environment for building autonomous agents.",
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/apple-touch-icon.svg',
+  },
 };
 
 export default function RootLayout({

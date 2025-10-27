@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Generator</title>
+</head>
+<body>
+    <canvas id="canvas" width="32" height="32"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Trophy cup (main body)
+        ctx.fillStyle = '#fcd34d';
+        ctx.beginPath();
+        ctx.roundRect(8, 5, 16, 14, 1);
+        ctx.fill();
+        
+        // Left handle
+        ctx.fillStyle = '#fbbf24';
+        ctx.fillRect(5, 8, 3, 6);
+        
+        // Right handle
+        ctx.fillRect(24, 8, 3, 6);
+        
+        // Trophy stem
+        ctx.fillStyle = '#f59e0b';
+        ctx.fillRect(14, 19, 4, 4);
+        
+        // Trophy base
+        ctx.beginPath();
+        ctx.roundRect(10, 23, 12, 3, 1);
+        ctx.fill();
+        
+        // Outline for depth
+        ctx.strokeStyle = '#f59e0b';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.roundRect(8, 5, 16, 14, 1);
+        ctx.stroke();
+        
+        // Download link
+        const link = document.createElement('a');
+        link.download = 'favicon.png';
+        canvas.toBlob(blob => {
+            link.href = URL.createObjectURL(blob);
+            link.click();
+        });
+    </script>
+</body>
+</html>

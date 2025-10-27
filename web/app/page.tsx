@@ -33,7 +33,7 @@ export default async function Home() {
   });
 
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-gradient-to-b from-amber-50/30 to-white dark:from-amber-950/10 dark:to-background">
       <div className="container mx-auto px-4 py-12 max-w-7xl">
         {/* Header */}
         <div className="mb-10">

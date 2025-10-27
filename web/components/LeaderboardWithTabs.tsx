@@ -100,11 +100,17 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
 
     return [...normalizedEntries]
       .filter(entry => entry.domain_breakdown && entry.domain_breakdown[domain])
-      .map(entry => ({
+      .map((entry, index) => ({
         ...entry,
-        domain_rate: entry.domain_breakdown[domain]?.rate || 0,
-        domain_successes: entry.domain_breakdown[domain]?.success || 0,
-        domain_total: entry.domain_breakdown[domain]?.total || 0,
+        domain_rate: entry.domain_breakdown?.[domain]?.rate || 0,
+        domain_successes: entry.domain_breakdown?.[domain]?.success || 0,
+        domain_total: entry.domain_breakdown?.[domain]?.total || 0,
+        isHuman: false,
+        isSubset: false,
+        date: entry.date || null,
+        open: entry.open || false,
+        model_size: entry.model_size || null,
+        note: entry.note || null,
       }))
       .sort((a, b) => (b.domain_rate || 0) - (a.domain_rate || 0));
   };
@@ -131,7 +137,7 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
       <div className="overflow-x-auto">
         <table className="w-full">
           <thead>
-            <tr className="border-b-2 border-foreground/20">
+            <tr className="border-b border-foreground/20">
               {domain === 'all' ? (
                 <th className="text-left py-3 px-4 font-semibold text-sm text-foreground w-16">
                   Rank
@@ -212,7 +218,7 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2">
-                          <span className="font-semibold text-foreground">{entry.name}</span>
+                          <span className="text-foreground">{entry.name}</span>
                           {entry.open && (
                             <Badge variant="outline" className="text-xs border-green-500 text-green-700 dark:text-green-400">
                               OS

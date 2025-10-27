@@ -1,128 +1,116 @@
-# Deployment Guide
+# WebArena Benchmark Deployment Guide
 
-## Deploying to Vercel (Recommended - Free)
+## ✅ Pre-Deployment Checklist
 
-### Step 1: Push to GitHub
+### Build Status
+- [x] Production build passes (`npm run build`)
+- [x] TypeScript compilation successful
+- [x] All pages generate successfully (/, /heatmap, /tasks)
+
+### Data Files
+- [x] All JSON files generated in `web/public/data/`
+  - models.json (1.7 KB)
+  - tasks.json (202 KB)
+  - results.json (439 KB)
+  - leaderboard.json (7.5 KB)
+  - task_difficulty.json (128 KB)
+  - heatmap_data.json (104 KB)
+
+### Configuration
+- [x] Vercel config exists (`vercel.json`)
+- [x] Build commands configured
+- [x] Output directory set to `web/.next`
+
+## 🚀 Deployment Steps
+
+### Option 1: Deploy via Vercel CLI
 
 ```bash
-git add .
-git commit -m "Initial commit: WebArena benchmark site"
-git push origin main
+# Install Vercel CLI if needed
+npm i -g vercel
+
+# Navigate to project root
+cd /Users/morotioyeyemi/repos/webarena-benchmark
+
+# Deploy
+vercel
+
+# Production deployment
+vercel --prod
 ```
 
-### Step 2: Deploy to Vercel
+### Option 2: Deploy via Vercel Dashboard
 
-1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
-2. Click "Add New Project"
-3. Import your `webarena-benchmark` repository
-4. Configure the project:
-   - **Framework Preset**: Next.js
-   - **Root Directory**: `web`
-   - **Build Command**: `npm run build` (auto-detected)
-   - **Output Directory**: `.next` (auto-detected)
+1. Go to https://vercel.com/new
+2. Import Git Repository
+3. Select your GitHub repo (or upload manually)
+4. Vercel will auto-detect Next.js and use settings from `vercel.json`
 5. Click "Deploy"
 
-### Step 3: Verify Automatic Updates
+### Option 3: Deploy via GitHub Integration
 
-The GitHub Action is already configured to:
-- Run daily at 00:00 UTC
-- Fetch latest data from Google Sheets
-- Commit updates to the repository
-- Trigger Vercel redeployment automatically
+1. Push code to GitHub
+2. Connect repo to Vercel
+3. Auto-deploys on every push to main
 
-To test the automatic update:
-1. Go to your GitHub repository
-2. Click "Actions" tab
-3. Select "Update Leaderboard Data"
-4. Click "Run workflow" > "Run workflow"
-5. Wait for it to complete
-6. Vercel will automatically rebuild and deploy
+## 📝 Post-Deployment
 
-## Alternative: Deploy to Netlify
+### Custom Domain Setup
+1. Add domain: `webarena-benchmark.com`
+2. Configure DNS:
+   - Type: A
+   - Name: @
+   - Value: 76.76.21.21
+   
+   - Type: CNAME
+   - Name: www
+   - Value: cname.vercel-dns.com
 
-### Step 1: Create netlify.toml
+### Environment Variables
+None required - all data is static
 
-Create a file at the root: `netlify.toml`
+### Performance
+- All pages are statically generated (SSG)
+- No server-side rendering needed
+- Fast load times expected
 
-```toml
-[build]
-  base = "web"
-  command = "npm run build"
-  publish = ".next"
+## 🧹 Optional: Clean Up Large Files
 
-[build.environment]
-  NODE_VERSION = "18"
+To reduce repo size from 19GB to ~650MB:
+
+```bash
+# Remove trajectory files (already processed)
+rm -rf data/trajectories
+
+# Or move to backup
+mv data/trajectories ~/Desktop/webarena-trajectories-backup
 ```
 
-### Step 2: Deploy
+**Note:** Trajectory files are not needed for deployment. All required data is in `web/public/data/`.
 
-1. Go to [netlify.com](https://netlify.com)
-2. Click "Add new site" > "Import an existing project"
-3. Connect your GitHub repository
-4. Netlify will auto-detect the configuration
-5. Click "Deploy site"
+## 🔧 Troubleshooting
 
-## Deployment Costs
+### Build Fails
+```bash
+cd web
+npm install
+npm run build
+```
 
-Both Vercel and Netlify offer generous free tiers:
+### Missing Data Files
+```bash
+python3 scripts/normalize_data.py
+```
 
-### Vercel Free Tier
-- ✅ Unlimited personal projects
-- ✅ Automatic HTTPS
-- ✅ 100GB bandwidth/month
-- ✅ Automatic deployments on git push
-- ✅ Perfect for this project
+### TypeScript Errors
+Check `web/types/normalized.ts` matches data structure
 
-### Netlify Free Tier
-- ✅ 300 build minutes/month
-- ✅ 100GB bandwidth/month
-- ✅ Automatic HTTPS
-- ✅ Automatic deployments on git push
-- ✅ Perfect for this project
+## 📊 Site Structure
 
-**Recommendation**: Either platform works great. Vercel has slightly better Next.js integration since they created Next.js.
+- `/` - Main leaderboard with tabs (Overall, GitLab, Map, Reddit, Shopping, Admin, Wikipedia)
+- `/heatmap` - Performance visualizations (Radar Chart, Matrix, Difficulty Distribution, Scatter Plot)
+- `/tasks` - Task browser with search, filter, and sort
 
-## Custom Domain (Optional)
+## 🎯 Ready to Deploy!
 
-### On Vercel:
-1. Go to your project settings
-2. Click "Domains"
-3. Add your custom domain
-4. Follow the DNS configuration instructions
-
-### On Netlify:
-1. Go to your site settings
-2. Click "Domain management"
-3. Add your custom domain
-4. Follow the DNS configuration instructions
-
-## Monitoring
-
-### Check if data is updating:
-1. Visit your deployed site
-2. Look at "Last updated" date at the top of the leaderboard
-3. Should update daily
-
-### Troubleshooting GitHub Actions:
-1. Go to your GitHub repository
-2. Click "Actions" tab
-3. Check the status of recent runs
-4. Click on a run to see detailed logs
-
-### Common Issues:
-
-**Problem**: GitHub Action fails
-- **Solution**: Check that the Google Sheet is publicly accessible
-- **Solution**: Verify the sheet ID in `scripts/fetch_leaderboard.py` is correct
-
-**Problem**: Site doesn't update after Action runs
-- **Solution**: Check that Vercel is connected to your GitHub repo
-- **Solution**: Verify that Vercel has "Auto Deploy" enabled for your main branch
-
-**Problem**: Build fails on Vercel
-- **Solution**: Make sure `web/public/data/leaderboard.json` exists in your repo
-- **Solution**: Run `python scripts/fetch_leaderboard.py` locally and commit the data
-
-## Need Help?
-
-Open an issue on GitHub or check the main [README.md](README.md) for more information.
+Your site is production-ready. No blockers found.

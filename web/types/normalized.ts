@@ -41,6 +41,10 @@ export interface LeaderboardEntry {
   rank: number;
   domain_breakdown?: Record<string, DomainStats>;
   has_trajectories?: boolean;
+  date?: string | null;
+  open?: boolean;
+  model_size?: string | null;
+  note?: string | null;
 }
 
 export interface TaskDifficulty {
