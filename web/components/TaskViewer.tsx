@@ -90,7 +90,6 @@ export default function TaskViewer({ tasks, results, models, taskDifficulty }: T
       <div className="space-y-4 lg:h-screen lg:sticky lg:top-4">
         <Card>
           <CardHeader>
-            <CardTitle>Browse Tasks</CardTitle>
             <CardDescription>
               Showing {filteredTasks.length} of {tasks.length} tasks
             </CardDescription>

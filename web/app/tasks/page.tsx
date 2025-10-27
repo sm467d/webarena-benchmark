@@ -1,4 +1,4 @@
-import TaskViewer from '@/components/TaskViewer';
+import TaskBrowser from '@/components/TaskBrowser';
 import { Task, Result, Model, TaskDifficulty } from '@/types/normalized';
 import { promises as fs } from 'fs';
 import path from 'path';
@@ -34,27 +34,25 @@ export default async function TasksPage() {
         {/* Header */}
         <div className="mb-10">
           <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-4">
-              <Link href="/">
-                <Button variant="ghost" size="sm">
-                  <ArrowLeft className="w-4 h-4 mr-2" />
-                  Back to Leaderboard
-                </Button>
-              </Link>
-              <h1 className="text-4xl font-bold tracking-tight">
-                Task Browser
-              </h1>
-            </div>
+            <Link href="/">
+              <Button variant="ghost" size="sm">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Back to Leaderboard
+              </Button>
+            </Link>
             <ThemeToggle />
           </div>
-          <p className="text-muted-foreground text-lg max-w-3xl">
+          <h1 className="text-4xl font-bold tracking-tight mb-3">
+            Task Browser
+          </h1>
+          <p className="text-muted-foreground text-base max-w-3xl">
             Browse and filter through all {tasks.length} WebArena benchmark tasks.
             View task details, difficulty ratings, and model performance on each task.
           </p>
         </div>
 
-        {/* Task Viewer */}
-        <TaskViewer
+        {/* Task Browser */}
+        <TaskBrowser
           tasks={tasks}
           results={results}
           models={models}

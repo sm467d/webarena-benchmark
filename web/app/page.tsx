@@ -79,7 +79,7 @@ export default async function Home() {
                 href="/heatmap"
                 className="text-primary hover:text-primary/80 transition-colors underline underline-offset-4 font-medium"
               >
-                View Heatmap →
+                Visualizations →
               </Link>
               <Link
                 href="/tasks"

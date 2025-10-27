@@ -33,19 +33,21 @@ export default function ScatterPlot({ taskDifficulty, entries }: ScatterPlotProp
   const entriesWithData = entries.filter(e => e.domain_breakdown && Object.keys(e.domain_breakdown).length > 0);
 
   // Calculate average difficulty score for each model
-  const modelData = entriesWithData.map(entry => {
-    const modelTasks = taskDifficulty.filter(t => t.passing_models.includes(entry.id));
-    const avgDifficulty = modelTasks.length > 0
-      ? modelTasks.reduce((sum, t) => sum + DIFFICULTY_SCORES[t.difficulty], 0) / modelTasks.length
-      : 0;
+  const modelData = entriesWithData
+    .map(entry => {
+      const modelTasks = taskDifficulty.filter(t => t.passing_models.includes(entry.id));
+      const avgDifficulty = modelTasks.length > 0
+        ? modelTasks.reduce((sum, t) => sum + DIFFICULTY_SCORES[t.difficulty], 0) / modelTasks.length
+        : 0;
 
-    return {
-      name: entry.name,
-      successRate: entry.success_rate,
-      tasksCompleted: entry.successes,
-      avgDifficulty,
-    };
-  });
+      return {
+        name: entry.name,
+        successRate: entry.success_rate,
+        tasksCompleted: entry.successes,
+        avgDifficulty,
+      };
+    })
+    .filter(d => d.tasksCompleted > 0); // Exclude models with zero completions
 
   // Chart dimensions
   const width = 800;

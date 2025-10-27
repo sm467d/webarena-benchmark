@@ -33,6 +33,7 @@ export default function DifficultyDistribution({ taskDifficulty, models }: Diffi
   // Calculate per-model performance on each difficulty
   const modelPerformance = models
     .filter(m => m.has_trajectories)
+    .filter(m => m.id !== 'narada') // Exclude Narada AI
     .map(model => {
       const byDifficulty = DIFFICULTY_ORDER.map(difficulty => {
         const tasks = tasksByDifficulty.find(d => d.difficulty === difficulty)?.tasks || [];
@@ -50,6 +51,11 @@ export default function DifficultyDistribution({ taskDifficulty, models }: Diffi
         model,
         byDifficulty,
       };
+    })
+    .filter(({ byDifficulty }) => {
+      // Exclude models with all zeros (no meaningful data)
+      const totalCompleted = byDifficulty.reduce((sum, d) => sum + d.completed, 0);
+      return totalCompleted > 0;
     })
     .sort((a, b) => {
       // Sort by overall completion rate

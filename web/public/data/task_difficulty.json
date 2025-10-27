@@ -405,36 +405,39 @@
   },
   {
     "id": 41,
-    "success_count": 4,
-    "success_rate": 40.0,
+    "success_count": 5,
+    "success_rate": 50.0,
     "difficulty": "medium",
     "passing_models": [
       "agentoccam",
       "deepsky",
       "jace",
+      "narada",
       "gui_hybrid"
     ]
   },
   {
     "id": 42,
-    "success_count": 4,
-    "success_rate": 40.0,
+    "success_count": 5,
+    "success_rate": 50.0,
     "difficulty": "medium",
     "passing_models": [
       "agentoccam",
       "deepsky",
       "jace",
+      "narada",
       "gui_hybrid"
     ]
   },
   {
     "id": 43,
-    "success_count": 3,
-    "success_rate": 30.0,
-    "difficulty": "hard",
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
     "passing_models": [
       "agentoccam",
       "jace",
+      "narada",
       "gui_hybrid"
     ]
   },
@@ -1664,12 +1667,13 @@
   },
   {
     "id": 168,
-    "success_count": 4,
-    "success_rate": 40.0,
+    "success_count": 5,
+    "success_rate": 50.0,
     "difficulty": "medium",
     "passing_models": [
       "deepsky",
       "jace",
+      "narada",
       "gui_hybrid",
       "step"
     ]
@@ -1688,35 +1692,38 @@
   },
   {
     "id": 170,
-    "success_count": 3,
-    "success_rate": 30.0,
-    "difficulty": "hard",
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
     "passing_models": [
       "deepsky",
       "jace",
+      "narada",
       "gui_hybrid"
     ]
   },
   {
     "id": 171,
-    "success_count": 3,
-    "success_rate": 30.0,
-    "difficulty": "hard",
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
     "passing_models": [
       "deepsky",
       "jace",
+      "narada",
       "gui_hybrid"
     ]
   },
   {
     "id": 172,
-    "success_count": 3,
-    "success_rate": 30.0,
-    "difficulty": "hard",
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
     "passing_models": [
       "agentoccam",
       "deepsky",
-      "jace"
+      "jace",
+      "narada"
     ]
   },
   {
@@ -3967,12 +3974,13 @@
   },
   {
     "id": 399,
-    "success_count": 2,
-    "success_rate": 20.0,
+    "success_count": 3,
+    "success_rate": 30.0,
     "difficulty": "hard",
     "passing_models": [
       "deepsky",
-      "jace"
+      "jace",
+      "narada"
     ]
   },
   {
@@ -3998,23 +4006,25 @@
   },
   {
     "id": 402,
-    "success_count": 3,
-    "success_rate": 30.0,
-    "difficulty": "hard",
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
     "passing_models": [
       "deepsky",
       "jace",
+      "narada",
       "gui_hybrid"
     ]
   },
   {
     "id": 403,
-    "success_count": 3,
-    "success_rate": 30.0,
-    "difficulty": "hard",
+    "success_count": 4,
+    "success_rate": 40.0,
+    "difficulty": "medium",
     "passing_models": [
       "deepsky",
       "jace",
+      "narada",
       "gui_hybrid"
     ]
   },
@@ -6455,13 +6465,14 @@
   },
   {
     "id": 652,
-    "success_count": 5,
-    "success_rate": 50.0,
+    "success_count": 6,
+    "success_rate": 60.0,
     "difficulty": "medium",
     "passing_models": [
       "agentoccam",
       "deepsky",
       "jace",
+      "narada",
       "gui_hybrid",
       "step"
     ]

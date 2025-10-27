@@ -27,7 +27,9 @@ export default function CompactMatrix({ entries }: CompactMatrixProps) {
     if (rate >= 50) return 'bg-emerald-100 dark:bg-emerald-200 text-emerald-800';
     if (rate >= 30) return 'bg-yellow-100 dark:bg-yellow-200 text-yellow-800';
     if (rate >= 15) return 'bg-orange-100 dark:bg-orange-200 text-orange-800';
-    return 'bg-rose-100 dark:bg-rose-200 text-rose-800';
+    if (rate > 0) return 'bg-rose-100 dark:bg-rose-200 text-rose-800';
+    // Return gray for zero (no data)
+    return 'bg-gray-100 dark:bg-gray-800 text-gray-500';
   };
 
   return (
@@ -70,7 +72,7 @@ export default function CompactMatrix({ entries }: CompactMatrixProps) {
                     if (!domainData) {
                       return (
                         <td key={domain} className="py-2 px-2 text-center">
-                          <div className="inline-flex items-center justify-center min-w-[50px] px-2 py-1 rounded text-xs bg-gray-200 dark:bg-gray-800 text-gray-500">
+                          <div className="inline-flex items-center justify-center min-w-[50px] px-2 py-1 rounded text-xs bg-gray-100 dark:bg-gray-800 text-gray-500">
                             —
                           </div>
                         </td>
@@ -82,13 +84,15 @@ export default function CompactMatrix({ entries }: CompactMatrixProps) {
                     return (
                       <td key={domain} className="py-2 px-2 text-center group relative">
                         <div className={`inline-flex items-center justify-center min-w-[50px] px-2 py-1 rounded text-xs font-bold ${getColor(rate)}`}>
-                          {rate.toFixed(1)}%
+                          {rate === 0 ? '—' : `${rate.toFixed(1)}%`}
                         </div>
 
                         {/* Tooltip */}
-                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-popover text-popover-foreground text-xs rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10 border">
-                          {domainData.success}/{domainData.total} tasks
-                        </div>
+                        {rate > 0 && (
+                          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-popover text-popover-foreground text-xs rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10 border">
+                            {domainData.success}/{domainData.total} tasks
+                          </div>
+                        )}
                       </td>
                     );
                   })}

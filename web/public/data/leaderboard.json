@@ -2,7 +2,6 @@
   {
     "id": "deepsky",
     "name": "DeepSky Agent",
-    "organization": "DeepSky AI / Airtable",
     "total_tasks": 812,
     "successes": 543,
     "success_rate": 66.9,
@@ -44,20 +43,19 @@
   {
     "id": "narada",
     "name": "Narada AI",
-    "organization": "Narada AI Inc.",
     "total_tasks": 811,
-    "successes": 0,
+    "successes": 11,
     "success_rate": 64.2,
     "domain_breakdown": {
       "shopping_admin": {
-        "success": 0,
+        "success": 3,
         "total": 182,
-        "rate": 0.0
+        "rate": 1.6
       },
       "gitlab": {
-        "success": 0,
+        "success": 4,
         "total": 196,
-        "rate": 0.0
+        "rate": 2.0
       },
       "shopping": {
         "success": 0,
@@ -65,9 +63,9 @@
         "rate": 0.0
       },
       "reddit": {
-        "success": 0,
+        "success": 4,
         "total": 114,
-        "rate": 0.0
+        "rate": 3.5
       },
       "map": {
         "success": 0,
@@ -86,7 +84,6 @@
   {
     "id": "ibm_cuga",
     "name": "IBM CUGA",
-    "organization": "IBM Research",
     "total_tasks": 808,
     "successes": 0,
     "success_rate": 61.7,
@@ -128,7 +125,6 @@
   {
     "id": "openai_operator",
     "name": "OpenAI Operator",
-    "organization": "OpenAI",
     "total_tasks": 812,
     "successes": 0,
     "success_rate": 58.1,
@@ -170,7 +166,6 @@
   {
     "id": "jace",
     "name": "Jace.AI",
-    "organization": "Zeta Labs",
     "total_tasks": 812,
     "successes": 464,
     "success_rate": 57.1,
@@ -212,7 +207,6 @@
   {
     "id": "scribeagent",
     "name": "ScribeAgent + GPT-4o",
-    "organization": "Scribe / Colony Labs",
     "total_tasks": 733,
     "successes": 0,
     "success_rate": 53.0,
@@ -254,7 +248,6 @@
   {
     "id": "learn_by_interact",
     "name": "Learn-by-Interact",
-    "organization": "Google Research / University of Hong Kong",
     "total_tasks": 812,
     "successes": 0,
     "success_rate": 48.0,
@@ -296,7 +289,6 @@
   {
     "id": "agentoccam",
     "name": "AgentOccam-Judge",
-    "organization": "All-Hands-AI",
     "total_tasks": 812,
     "successes": 67,
     "success_rate": 45.7,
@@ -338,7 +330,6 @@
   {
     "id": "gui_hybrid",
     "name": "GUI-API Hybrid Agent",
-    "organization": "Carnegie Mellon University",
     "total_tasks": 812,
     "successes": 292,
     "success_rate": 35.8,
@@ -380,7 +371,6 @@
   {
     "id": "step",
     "name": "SteP",
-    "organization": "",
     "total_tasks": 804,
     "successes": 194,
     "success_rate": 33.5,

@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { LeaderboardEntry } from '@/types/normalized';
 import { ArrowUpIcon, ArrowDownIcon, TrendingUp, Trophy, Medal, Award, User } from 'lucide-react';
 import { getCompanyLogoUrl } from '@/lib/company-logos';
-import { getOrganizationName } from '@/lib/model-organizations';
+import { getOrganizationName, getModelLLM } from '@/lib/model-organizations';
 import Image from 'next/image';
 
 interface LeaderboardWithTabsProps {
@@ -110,11 +110,18 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
   };
 
   const getRankBadge = (rank: number, isHuman?: boolean, isSubset?: boolean) => {
-    if (isHuman || isSubset) return <span className="text-lg font-semibold text-foreground/40">—</span>;
-    if (rank === 1) return <span className="text-lg font-bold text-yellow-600 dark:text-yellow-500">{rank}</span>;
-    if (rank === 2) return <span className="text-lg font-bold text-gray-500 dark:text-gray-400">{rank}</span>;
-    if (rank === 3) return <span className="text-lg font-bold text-amber-700 dark:text-amber-600">{rank}</span>;
-    return <span className="text-lg font-semibold text-foreground/60">{rank}</span>;
+    if (isHuman || isSubset) return <span className="text-sm font-semibold text-foreground/40">—</span>;
+    return <span className="text-sm font-semibold text-foreground">#{rank}</span>;
+  };
+
+  const getRowBackground = (index: number, isHuman?: boolean, isSubset?: boolean, rank?: number) => {
+    if (isHuman || isSubset) return '';
+    // Use rank if provided, otherwise use index (for domain tabs)
+    const effectiveRank = rank || index + 1;
+    if (effectiveRank === 1) return 'bg-yellow-100/30 dark:bg-yellow-950/20';
+    if (effectiveRank === 2) return 'bg-yellow-100/30 dark:bg-yellow-950/20';
+    if (effectiveRank === 3) return 'bg-yellow-100/30 dark:bg-yellow-950/20';
+    return '';
   };
 
   const renderTable = (domain: Domain) => {
@@ -125,14 +132,28 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
         <table className="w-full">
           <thead>
             <tr className="border-b-2 border-foreground/20">
-              <th className="text-left py-3 px-4 font-semibold text-sm text-foreground w-16">
-                Rank
-              </th>
+              {domain === 'all' ? (
+                <th className="text-left py-3 px-4 font-semibold text-sm text-foreground w-16">
+                  Rank
+                </th>
+              ) : (
+                <>
+                  <th className="text-center py-3 px-4 font-semibold text-sm text-foreground w-16">
+                    Domain Rank
+                  </th>
+                  <th className="text-center py-3 px-4 font-semibold text-sm text-foreground w-16">
+                    Overall Rank
+                  </th>
+                </>
+              )}
               <th className="text-left py-3 px-4 font-semibold text-sm text-foreground">
                 Model
               </th>
               <th className="text-left py-3 px-4 font-semibold text-sm text-foreground">
                 Organization
+              </th>
+              <th className="text-left py-3 px-4 font-semibold text-sm text-foreground">
+                LLM
               </th>
               <th className="text-right py-3 px-4 font-semibold text-sm text-foreground w-24">
                 Success Rate
@@ -140,11 +161,6 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
               <th className="text-right py-3 px-4 font-semibold text-sm text-foreground">
                 Tasks
               </th>
-              {domain !== 'all' && (
-                <th className="text-center py-3 px-4 font-semibold text-sm text-foreground">
-                  Overall
-                </th>
-              )}
               <th className="text-center py-3 px-4 font-semibold text-sm text-foreground">
                 Trajectories
               </th>
@@ -160,11 +176,22 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
               return (
                 <tr
                   key={entry.id}
-                  className="border-b border-foreground/10 hover:bg-accent/50 transition-colors"
+                  className={`border-b border-foreground/10 hover:bg-accent/50 transition-colors ${getRowBackground(index, entry.isHuman, entry.isSubset, entry.rank)}`}
                 >
-                  <td className="py-3 px-4">
-                    {getRankBadge(entry.rank, entry.isHuman, entry.isSubset)}
-                  </td>
+                  {domain === 'all' ? (
+                    <td className="py-3 px-4">
+                      {getRankBadge(entry.rank, entry.isHuman, entry.isSubset)}
+                    </td>
+                  ) : (
+                    <>
+                      <td className="py-3 px-4 text-center">
+                        <span className="text-sm font-semibold text-foreground">#{index + 1}</span>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="text-sm text-foreground/60">#{entry.rank}</span>
+                      </td>
+                    </>
+                  )}
                   <td className="py-3 px-4">
                     <div className="flex items-start gap-3">
                       <div className="flex-shrink-0 w-5 h-5 flex items-center justify-center mt-0.5">
@@ -215,21 +242,17 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
                   <td className="py-3 px-4 text-sm text-foreground/70">
                     {getOrganizationName(entry.name)}
                   </td>
+                  <td className="py-3 px-4 text-sm text-foreground/70">
+                    {getModelLLM(entry.name) || <span className="text-foreground/30">—</span>}
+                  </td>
                   <td className="py-3 px-4 text-right">
-                    <Badge variant="default" className="font-mono text-sm px-3 py-1 bg-primary text-primary-foreground font-semibold">
+                    <span className="font-mono text-sm font-semibold text-foreground">
                       {successRate?.toFixed(1)}%
-                    </Badge>
+                    </span>
                   </td>
                   <td className="py-3 px-4 text-right text-sm text-foreground/70 font-medium">
                     {successes}/{total}
                   </td>
-                  {domainSpecific && (
-                    <td className="py-3 px-4 text-center">
-                      <Badge variant="secondary" className="font-mono text-sm px-2 py-0.5">
-                        {entry.success_rate.toFixed(1)}%
-                      </Badge>
-                    </td>
-                  )}
                   <td className="py-3 px-4 text-center">
                     {entry.has_trajectories ? (
                       <a href="#" className="text-sm text-primary hover:underline font-medium">
@@ -297,52 +320,6 @@ export default function LeaderboardWithTabs({ officialEntries, normalizedEntries
           </TabsContent>
         ))}
       </Tabs>
-
-      {/* Quick Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <Card>
-          <CardContent className="p-6">
-            <div className="flex items-center gap-3">
-              <TrendingUp className="w-8 h-8 text-green-500" />
-              <div>
-                <p className="text-sm text-muted-foreground">Top Model</p>
-                <p className="text-2xl font-bold">
-                  {officialEntries[0] ? parseFloat(officialEntries[0]['Success Rate (%)']).toFixed(1) : '0.0'}%
-                </p>
-                <p className="text-xs text-muted-foreground mt-1">{officialEntries[0]?.Model || 'N/A'}</p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardContent className="p-6">
-            <div className="flex items-center gap-3">
-              <Trophy className="w-8 h-8 text-yellow-500" />
-              <div>
-                <p className="text-sm text-muted-foreground">Models Evaluated</p>
-                <p className="text-2xl font-bold">{officialEntries.length}</p>
-                <p className="text-xs text-muted-foreground mt-1">
-                  {normalizedEntries.length} with trajectories
-                </p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardContent className="p-6">
-            <div className="flex items-center gap-3">
-              <Award className="w-8 h-8 text-blue-500" />
-              <div>
-                <p className="text-sm text-muted-foreground">Benchmark Tasks</p>
-                <p className="text-2xl font-bold">812</p>
-                <p className="text-xs text-muted-foreground mt-1">Across 6 domains</p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
     </div>
   );
 }

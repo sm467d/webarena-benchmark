@@ -56,31 +56,37 @@ export const MODEL_ORGANIZATIONS: Record<string, ModelOrganization> = {
     modelName: 'AgentSymbiotic',
     organization: 'AgentSymbiotic',
     organizationType: 'open-source',
+    llm: 'GPT-4o + Llama3-8B',
   },
   'Learn-by-Interact': {
     modelName: 'Learn-by-Interact',
     organization: 'Learn-by-interact',
     organizationType: 'research',
+    llm: 'GPT-4',
   },
   'AgentOccam-Judge': {
     modelName: 'AgentOccam-Judge',
     organization: 'AgentOccam-Judge',
     organizationType: 'open-source',
+    llm: 'GPT-4-turbo',
   },
   'WebPilot': {
     modelName: 'WebPilot',
     organization: 'WebPilot',
     organizationType: 'research',
+    llm: 'GPT-4',
   },
   'GUI-API Hybrid Agent': {
     modelName: 'GUI-API Hybrid Agent',
     organization: 'Beyond Browsing',
     organizationType: 'university',
+    llm: 'GPT-4o',
   },
   'Agent Workflow Memory': {
     modelName: 'Agent Workflow Memory',
     organization: 'AWM',
     organizationType: 'university',
+    llm: 'GPT-4o',
   },
   'SteP': {
     modelName: 'SteP',
@@ -92,6 +98,7 @@ export const MODEL_ORGANIZATIONS: Record<string, ModelOrganization> = {
     modelName: 'TTI',
     organization: 'TTI',
     organizationType: 'research',
+    llm: 'Gemma 3 12B',
   },
   'BrowserGym + GPT-4': {
     modelName: 'BrowserGym + GPT-4',
@@ -141,6 +148,12 @@ export const MODEL_ORGANIZATIONS: Record<string, ModelOrganization> = {
     organizationType: 'company',
     llm: 'GPT-4o',
   },
+  'gpt-3.5-turbo-16k-0613': {
+    modelName: 'gpt-3.5-turbo-16k-0613',
+    organization: 'OpenAI',
+    organizationType: 'company',
+    llm: 'GPT-3.5-turbo',
+  },
   'Qwen-1.5-chat-72b': {
     modelName: 'Qwen-1.5-chat-72b',
     organization: 'Alibaba Cloud',
@@ -181,6 +194,7 @@ export const MODEL_ORGANIZATIONS: Record<string, ModelOrganization> = {
     modelName: 'Agent Flan',
     organization: 'Research Project',
     organizationType: 'open-source',
+    llm: 'Llama2-7B',
   },
   'CodeLlama-instruct-34b': {
     modelName: 'CodeLlama-instruct-34b',
@@ -216,6 +230,7 @@ export const MODEL_ORGANIZATIONS: Record<string, ModelOrganization> = {
     modelName: 'CodeAct Agent',
     organization: 'DARPA-funded Research',
     organizationType: 'research',
+    llm: 'Llama2 / Mistral-7B',
   },
   'Mixtral': {
     modelName: 'Mixtral',
@@ -233,16 +248,19 @@ export const MODEL_ORGANIZATIONS: Record<string, ModelOrganization> = {
     modelName: 'AutoGuide',
     organization: 'Research Project',
     organizationType: 'research',
+    llm: 'GPT-4-turbo',
   },
   'AutoManual': {
     modelName: 'AutoManual',
     organization: 'Research Project',
     organizationType: 'research',
+    llm: 'GPT-4-turbo',
   },
   'Patel et al + 2024': {
     modelName: 'Patel et al + 2024',
     organization: 'Research Project',
     organizationType: 'research',
+    llm: 'Self-improving',
   },
 };
 

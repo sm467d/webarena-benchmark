@@ -3,6 +3,7 @@ import DomainBarChart from '@/components/visualizations/DomainBarChart';
 import CompactMatrix from '@/components/visualizations/CompactMatrix';
 import DifficultyDistribution from '@/components/visualizations/DifficultyDistribution';
 import ScatterPlot from '@/components/visualizations/ScatterPlot';
+import RadarChart from '@/components/visualizations/RadarChart';
 import { HeatmapData, Model, TaskDifficulty, LeaderboardEntry } from '@/types/normalized';
 import { promises as fs } from 'fs';
 import path from 'path';
@@ -56,6 +57,9 @@ export default async function HeatmapPage() {
 
         {/* Visualizations */}
         <div className="space-y-8">
+          {/* Radar Chart */}
+          <RadarChart entries={leaderboard} />
+
           {/* Compact Matrix */}
           <CompactMatrix entries={leaderboard} />
 

@@ -95,6 +95,59 @@ def extract_results_agentoccam(file_path):
         pass
     return None, None
 
+def extract_results_narada(file_path):
+    """Extract from Narada format - has score field (1.0 = success, 0.0 = failure)"""
+    try:
+        with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+            content = f.read(100000)  # Read first 100KB
+            data = json.loads(content)
+            # Extract task ID from filename
+            task_id = extract_task_id_from_filename(file_path.name)
+            score = data.get('score')
+            if score is not None:
+                success = score >= 0.5  # Score of 1.0 means success, 0.0 means failure
+                return task_id, success
+    except:
+        pass
+    return None, None
+
+def extract_results_ibm_cuga(file_path):
+    """Extract from IBM CUGA format - trajectory-only files without success data"""
+    # IBM CUGA files don't have success data embedded, return None
+    # Task ID can still be extracted for tracking
+    try:
+        task_id = extract_task_id_from_filename(file_path.name)
+        return task_id, None
+    except:
+        return None, None
+
+def extract_results_openai_operator(file_path):
+    """Extract from OpenAI Operator format - list of messages without success data"""
+    # OpenAI Operator files don't have success data embedded
+    try:
+        task_id = extract_task_id_from_filename(file_path.name)
+        return task_id, None
+    except:
+        return None, None
+
+def extract_results_scribeagent(file_path):
+    """Extract from ScribeAgent format"""
+    # ScribeAgent files need investigation
+    try:
+        task_id = extract_task_id_from_filename(file_path.name)
+        return task_id, None
+    except:
+        return None, None
+
+def extract_results_learn_by_interact(file_path):
+    """Extract from Learn-by-Interact format"""
+    # Learn-by-Interact files need investigation
+    try:
+        task_id = extract_task_id_from_filename(file_path.name)
+        return task_id, None
+    except:
+        return None, None
+
 def main():
     # Configuration
     trajectories_dir = Path("data/trajectories")
@@ -138,6 +191,11 @@ def main():
         "deepsky": extract_results_deepsky,
         "step": extract_results_step,
         "agentoccam": extract_results_agentoccam,
+        "narada": extract_results_narada,
+        "ibm_cuga": extract_results_ibm_cuga,
+        "openai_operator": extract_results_openai_operator,
+        "scribeagent": extract_results_scribeagent,
+        "learn_by_interact": extract_results_learn_by_interact,
     }
 
     print("\n[3/6] Extracting results from trajectory files...")
